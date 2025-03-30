@@ -29,3 +29,13 @@ body {
     background-color: blueviolet;
     color: white;
 }
+
+.image {
+    width: 200px;
+    height: 100px;
+    float: right;
+    background-color: red;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(/images/logo.png);
+}
