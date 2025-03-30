@@ -2,3 +2,30 @@ body {
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    height: 60px;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav li {
+    height: 60px;
+}
+.nav li a {
+    background-color: rgb(61, 160, 193);
+    padding: 10px;
+    box-shadow: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(225, 221, 219);
+    border-radius: 5px;
+}
+
+.nav li a:hover {
+    background-color: blueviolet;
+    color: white;
+}
