@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body {
     background-color: lightgray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,3 +40,65 @@ body {
     background-size: 100%;
     background-image: url(/images/logo.png);
 }
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innova Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 15px;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            background-color: #0056b3;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            background-color: #f80b0b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Innova Web</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/nosotros.html">Nosotros</a></li>
+                <li><a href="/servicios/">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bienvenido a Innova</h2>
+        <p>Ofrecemos tecnología innovadora para facilitar tu vida.</p>
+    </main>
+</body>
+</html>
+>>>>>>> Stashed changes
